@@ -1,7 +1,8 @@
 import axios from 'axios'
 
 const request = axios.create({
-        baseURL: 'https://lianghj.top:3000',
+        // baseURL: 'https://lianghj.top:3000',
+        baseURL: 'http://120.79.99.196:3000',
         // baseURL: 'http://localhost:3000',
         // baseURL: 'https://music.163.com',
         timeout: 3000
